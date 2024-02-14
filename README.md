@@ -1,7 +1,15 @@
 # src.main.java.ParenSymmetry
 balance is found except when it's not
 
+The strings in this array are NOT balanced
 
+`String[] falseStrings = {"(", "((", ")", "", "(()())((())))"};`
+
+The Strings in this array are balanced
+
+`String[] trueStrings = {"()", "(())", "(((())))", "", "(()())((()))", "(   )", "( () ( ) )"};`
+
+Notice: it is okay to have spaces in the string.
 
 Write two methods:
 - Write a method `isBalanced` that takes a string, and produces true if balanced, false otherwise. 
