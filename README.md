@@ -1,4 +1,4 @@
-# src.main.java.ParenSymmetry
+# ParenSymmetry
 balance is found except when it's not
 
 The strings in this array are NOT balanced
