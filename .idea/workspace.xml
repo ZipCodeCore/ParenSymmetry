@@ -5,32 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adb5b884-c783-4b8f-a7c8-37a1385a81d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ParenSymmetryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ParenSymmetry.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParenSymmetry/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParenSymmetry/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParenSymmetry/.idea/ParenSymmetry.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParenSymmetry/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParenSymmetry/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParenSymmetry/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParenSymmetry/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParenSymmetry/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParenSymmetry/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParenSymmetry/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParenSymmetry/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParenSymmetry/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParenSymmetry/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ParenSymmetry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ParenSymmetry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ParenSymmetryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ParenSymmetryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +35,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -74,14 +54,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ParenSymmetryTest">
-    <configuration name="ParenSymmetry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ParenSymmetry" />
-      <module name="ParenSymmetry" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ParenSymmetryTest.isBalancedFalses">
     <configuration name="ParenSymmetryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ParenSymmetry" />
       <option name="PACKAGE_NAME" value="" />
@@ -111,12 +84,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ParenSymmetryTest.isBalancedFalses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ParenSymmetry" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ParenSymmetryTest" />
+      <option name="METHOD_NAME" value="isBalancedFalses" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParenSymmetryTest.isBalancedTrues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ParenSymmetry" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ParenSymmetryTest" />
+      <option name="METHOD_NAME" value="isBalancedTrues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParenSymmetryTest.isBalancedFalses" />
+        <item itemvalue="JUnit.ParenSymmetryTest.isBalancedTrues" />
         <item itemvalue="JUnit.ParenSymmetryTest" />
         <item itemvalue="JUnit.ParenSymmetryTest.isBalanced1" />
         <item itemvalue="JUnit.ParenSymmetryTest.isBalanced" />
-        <item itemvalue="Application.ParenSymmetry" />
       </list>
     </recent_temporary>
   </component>
