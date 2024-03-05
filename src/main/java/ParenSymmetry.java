@@ -1,9 +1,6 @@
-package src.main.java;
-
 public class ParenSymmetry {
 
-
-    private Boolean isBalanced(String s) {
+    public Boolean isBalanced(String s) {
         // implement this method
         return null;
     }
