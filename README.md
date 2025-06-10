@@ -1,26 +1,54 @@
-# ParenSymmetry
-balance is found except when it's not
+# ParenSymmetry Lab
 
-The strings in this array are NOT balanced
+## Overview
 
-`String[] falseStrings = {"(", "((", ")", "(()())((())))"};`
+This lab teaches you to implement a **balanced parentheses checker**, a fundamental algorithm used in programming language processing. You'll learn to determine whether parentheses `()` in a string are properly balanced - meaning every opening parenthesis has a corresponding closing parenthesis in the correct order.
 
-The Strings in this array are balanced
+## Why This Matters: Lexing and Parsing
 
-`String[] trueStrings = {"()", "(())", "(((())))", "", "(()())((()))", "(   )", "( () ( ) )"};`
+Checking balanced delimiters is a core component of how programming languages are processed by computers. This involves two key steps:
 
-Notice: it is okay to have spaces in the string. It is _also okay to have any other character in the string._
+### Lexing (Lexical Analysis)
+**Lexing** is the process of breaking source code into meaningful pieces called "tokens." Think of it like breaking a sentence into individual words. A lexer scans through your code character by character and groups them into tokens like keywords (`if`, `while`), operators (`+`, `-`), identifiers (variable names), and delimiters (`()`, `{}`, `[]`).
 
-And that means `()grand()illusion` should be __true__
-And `(((add (5 6)) )&^$$%^$` should be __false__
+For example, the code `if (x > 5)` would be tokenized as:
+- `if` (keyword)
+- `(` (opening delimiter)  
+- `x` (identifier)
+- `>` (operator)
+- `5` (number)
+- `)` (closing delimiter)
 
-Write two methods:
-- Write a method `isBalanced` that takes a string, and produces true if balanced, false otherwise. 
-The method signature should be: `public boolean isBalanced(String stringToTest);`
-- get `isBalanced` to pass all the unit tests in `ParenSymmetryTest.java`
-- Write another method `checkFile` that use the first to check a file of paren strings producing a true or false for each line in the file. 
-- It should look like `public void checkFile(String filename);`
+### Parsing (Syntax Analysis)
+**Parsing** takes the tokens from lexing and builds a structure that represents the program's syntax - like creating a sentence diagram. The parser needs to verify that delimiters are properly balanced to ensure the code structure makes sense.
 
-And use either `TestStrings0.txt` and/or `TestStrings1.txt` to test your work.
-The results of running agains the `TestStrings0.txt` file should be
-__true, false, true, false, true, false, true__
+Consider this code:
+```
+if (condition) {
+    print("hello")
+}
+```
+
+The parser must verify that:
+- The `(` after `if` has a matching `)`
+- The opening `{` has a matching `}`
+- They're nested correctly
+
+## Real-World Applications
+
+Balanced delimiter checking is used in:
+- **Code editors** - highlighting matching brackets as you type
+- **Compilers** - validating program structure before translation
+- **IDEs** - providing syntax error detection
+- **Mathematical expressions** - ensuring formulas are correctly formed
+
+## Lab Structure
+
+- `java/` - Java implementation with Maven build system
+- `python/` - Python implementation with unittest framework
+
+Both versions include the same core challenge: implement the `isBalanced()` method to correctly identify balanced parentheses in strings.
+
+## Getting Started
+
+Choose your preferred language directory and follow the README instructions to implement and test your solution. Remember: this simple algorithm is the foundation for understanding how programming languages are processed!
